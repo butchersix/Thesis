@@ -1,0 +1,9 @@
+2.1 Depression
+
+2.2 Artificial Intelligence
+	2.2.1 Neural Networks
+	2.2.2 Deep Learning
+		- convolutional neural network
+		- feedforward neural network
+		- recurrent neural network
+	2.2.3 Long Short Term Memory (LSTM) Network
