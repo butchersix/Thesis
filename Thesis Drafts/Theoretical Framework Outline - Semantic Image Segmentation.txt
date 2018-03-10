@@ -1,8 +1,6 @@
+-------------------- SEGNET --------------------
+
 Input Image
-
-
-
-
 
 - ENCODER NETWORK
 	- contains 13 convolutional layers
@@ -41,3 +39,9 @@ Input Image
 
 
 Output Segmented Image
+
+
+-------------------- END --------------------
+
+
+-------------------- Fully Convolutional --------------------
