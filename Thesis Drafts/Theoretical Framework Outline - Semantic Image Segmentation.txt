@@ -1,0 +1,43 @@
+Input Image
+
+
+
+
+
+- ENCODER NETWORK
+	- contains 13 convolutional layers
+	- each encoder performs convolution with a filter bank
+		- to produce a set of feature maps
+	- batch normalization
+	- ReLU is applied
+	- Max-pooling 
+		- 2x2 window and stride 2 (non-overlapping window)
+		- resulting output is sub-sampled by a factor of 2
+		- used to achieve translation invariance over small spatial shifts
+	- more layers of max-pooling and sub-sampling leads to loss of spatial resolution
+		- basically losing the value of location of objects
+	- because of this, it is necessary to do the process -> capture and store boubdary information
+		- this takes place before the sub-sampling is performed
+	- they only store max-pooling indices
+		- memorizing the locations of the max-pool indices
+		- results to slight loss of accuracy
+
+
+- DECODER NETWORK
+	- each encoder layer also contains a layer for the decoder NETWORK
+	- final decoder output is fed to the multi-class soft-max classifier
+		- to produce class-probabilities for each pixel
+
+	- upsamples input feature map(s)
+	- feature map(s) are then convolved with a decoder filter bank to produce the decoder output (dense feature maps)
+	- batch normalization is applied to each map
+	- at the final decoder, its output is then fed to a trainable soft-max classifier
+
+
+- PIXELWISE CLASSIFICATION LAYER
+	- each pixel is then classified independently
+	- output of the classifier has K channel image of probabilities where K is the number of classes
+	- predicted segmentation corresponds to the class with maximum probability at each pixel
+
+
+Output Segmented Image
