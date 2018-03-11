@@ -45,3 +45,9 @@ Output Segmented Image
 
 
 -------------------- Fully Convolutional --------------------
+
+1. Data Gathering
+2. Data Augmentation
+3. Dense Prediction
+4. Fine-tuning
+5. Segmentation
