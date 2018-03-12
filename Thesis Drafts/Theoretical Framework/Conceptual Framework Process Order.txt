@@ -1,0 +1,8 @@
+------------------------- CONCEPTUAL FRAMEWORK -------------------------
+
+// By order ang processes
+
+1. Data Gathering
+2. Data Pre-processing
+	- Construct Ground Truth for Digitized Paintings
+	- 
