@@ -5,4 +5,16 @@
 1. Data Gathering
 2. Data Pre-processing
 	- Construct Ground Truth for Digitized Paintings
-	- 
+
+
+Semantic Segmentation
+	- Data Augmentation
+	- Transfer Learning
+	- Fine-tuning
+	- Train Neural Network
+	- Segmentation
+	- Evaluation
+		- if True:
+			exit
+		- if False:
+			goto Data Augmentation
