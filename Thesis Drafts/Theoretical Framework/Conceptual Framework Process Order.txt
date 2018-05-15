@@ -18,3 +18,8 @@ Semantic Segmentation
 			exit
 		- if False:
 			goto Data Augmentation
+
+
+Classifier
+	- Initialization
+	- 
