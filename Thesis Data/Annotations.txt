@@ -1,0 +1,48 @@
+
+// PUT * IF NOT SURE WITH THE ANNOTATIONS
+
+adolf-hitler_shelter-in-fournes *
+	- wood
+	- bike
+	- house
+	- sky
+	- soil
+
+adolf-hitler_the-castle-on-the-donau
+	- tree
+	- cow
+	- person
+	- castle
+	- mountain
+	- sky
+	- river *
+
+adolf-hitler_the-courtyard-of-the-old-residency-in-munich-1913
+	- tree
+	- fountain
+	- road
+	- house
+	- sky
+
+adolf-hitler_the-st-charles-church *
+	- church
+	- road
+	- person
+	- tree
+	- bush
+	- lamp post
+	- sky
+
+adolf-hitler_white-orchids
+	- background
+	- flower
+	- *
+
+albert-bierstadt_bison-with-coyotes-in-the-background
+	- animal
+	- background
+
+albert-bierstadt_rainbow-over-a-fallen-stag
+	- animal
+	- ground
+	- *
