@@ -1,0 +1,7 @@
+_background_
+house
+bicycle
+wood
+logs
+dirt
+box

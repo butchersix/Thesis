@@ -19,3 +19,6 @@ person
 flower
 pseudobulb
 deer
+water
+ship
+slab

@@ -1,0 +1,16 @@
+Total number of paintings to annotate: 240
+Total number of paintings per emotion to annotate: 30
+Total number of paintings per emotion to annotate per day: 24
+Number of paintings per emotion to annotate per day: 3
+
+
+1. if may kulang na category wala na annotate
+	- give the whole dataset
+2. d lahat ng paintings same na annotate
+	- One person at a time in annotating
+3. Opposite annotations on the same painting
+	- in progress
+	- ask ma'am mich/grace for guidance and help
+4. Format of Annotations
+	- upload dataset
+	- segregate them in the google drive (team drive)
